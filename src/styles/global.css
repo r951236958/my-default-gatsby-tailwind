@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "components/layout.css";
+
+body.dark {
+  --primary: #111827;
+  --text-main: white;
+}
+
+body.light {
+  --primary: white;
+  --text-main: #111827;
+}
+
+img {
+  margin: 0;
+}
